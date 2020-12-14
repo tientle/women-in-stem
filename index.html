@@ -3,59 +3,198 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Padauk&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<title> Women in STEM </title>
 </head>
 <body>
 
-<!-- <div id="particles-js"></div> -->
+<!-- HEADER -->
+<header>
+	<div id="particles-js">
+	<div id="infoBlock">
+		<h1> Women in STEM </h1>
+		<p id="infoLine"> A Tribute To Women In Science, Technology, Engineering & Mathematics (STEM) </p>
+			<p>
+				From the development of vaccines to the computer programs that allow us to work from home, science affects our lives everyday. Yet, women continue to be overlooked and underrepresented in the science fields.
+			</p>
+			<p>
+				This website will explore that data that showcases the immense disparities of women in STEM fields, and provide an overview of women who have made notable contributions in the STEM fields to progress our understanding of the world around us.
+			</p>
+	</div>
+</div>
+</header>
+<!-- END HEADER -->
 
-<section id='intro'>
-  <p class='intro__overline'>
-    <a href='https://github.com/russellgoldenberg/scrollama'>scrollama.js</a>
-  </p>
-  <h1 class='intro__hed'>Demo: Sticky Graphic</h1>
-  <p class='intro__dek'>
-    Start scrolling to see how it works.
-  </p>
+<!-- DIVS -->
+
+
+<!-- </div> -->
+
+		<h2 id="numbers"> The Numbers </h2>
+  <section id="scale-trigger" class="full-screen chartBlock">
+    <div id="scale-animation">
+			<div id="chart"> </div>
+			<p class="source"> Data obtained from: https://ncses.nsf.gov/pubs/nsb20198/demographic-trends-of-the-s-e-workforce#women-in-the-s-e-workforce </p>
+      <p class="desc">Although the median salary for women with science and engineering degrees have increased over the years, it has consistently been below the median salary of men.</p>
+    </div>
+  </section>
+
+  <section id="bg-trigger" class="full-screen red">
+    <div id="bg-animation">
+      <h2>History of Notable Women in STEM</h2>
+    </div>
+  </section>
+
+
+<!-- SLIDING PANELS -->
+<section class="panel purple">
+	<p class="pTitle"> Ada Lovelace </p>
+	<p> Known as the first programmer in computer science for her work in publishing a description of sequences for solving math problems.</p>
+		<img id="p1" class="people" src="images/people/p1.jpg" alt="Ada Lovelace">
+		<p class="source"> Image from:
+<a href="https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg#filelinks" target="_blank">Wikimedia Commons</a>
+			 <br> Information from: </p>
 </section>
-<section id='scroll'>
-  <div class='scroll__graphic'>
-    <div class='chart'>
-      <p>0</p>
-    </div>
-  </div>
-  <div class='scroll__text'>
-    <div class='step' data-step='1'>
-      <p>STEP 1</p>
-    </div>
-    <div class='step' data-step='2'>
-      <p>STEP 2</p>
-    </div>
-    <div class='step' data-step='3'>
-      <p>STEP 3</p>
-    </div>
-    <div class='step' data-step='4'>
-      <p>STEP 4</p>
-    </div>
-  </div>
+
+<section class="panel turqoise">
+	<p class="pTitle"> Katherine Johnson</p>
+	<p> Known for her work at NASA for orbital missions.</p>
+	<img id="p2" class="people" src="images/people/p2.jpg" alt="Katherine Johnson">
+	<p class="source"> Image from:
+		<a href="https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg" target="_blank">Wikimedia Commons</a>
+					 <br> Information from: https://www.nasa.gov/content/katherine-johnson-biography
+	</p>
 </section>
-<section id='outro'></section>
-<div class='debug'></div>
+
+<section class="panel green">
+	<p class="pTitle">Dr. Flossie Wong-Staal</p>
+	<p> Leader in molecular biology because of her cancer and HIV research. Most cited female scientist in the 1980s with 7,800 citations. </p>
+	<img id="p3" class="people" src="images/people/p3.jpg" alt="Dr. Flossie Wong-Staal">
+	<p class="source"> Image from:
+		<a href="https://commons.wikimedia.org/wiki/File:Nci-vol-8247-300_flossie_wong_staal.jpg" target="_blank">Wikimedia Commons</a>
+					 <br> Information from: https://ccr.cancer.gov/news/article/in-memoriam-flossie-wong-staal-phd
+	</p>
+</section>
+
+<section class="panel yellow">
+	<p class="pTitle">Dr. Jane Cooke Wright</p>
+	<p> Solidified chemptherapy during a time where it was highly experimental. </p>
+	<img id="p4" class="people" src="images/people/p4.jpg" alt="Dr. Jane Cooke Wright">
+	<p class="source"> Image from:
+		<a href="https://commons.wikimedia.org/wiki/File:Jane_Cooke_Wright.jpg" target="_blank">Wikimedia Commons</a>
+					 <br> Information from: https://cfmedicine.nlm.nih.gov/physicians/biography_336.html/
+	 </p>
+</section>
+
+<section class="panel pink">
+	<p class="pTitle">Emmy Noether</p>
+	<p> Mathematician who contributed to abstract algebra. Discovered Noether's theorem, a fundamental for physics.  </p>
+	<img id="p5" class="people" src="images/people/p5.jpg" alt="Emmy Noether">
+	<p class="source"> Image from:
+		<a href="https://commons.wikimedia.org/wiki/File:Noether.jpg" target="_blank">Wikimedia Commons</a>
+					 <br> Information from: https://www.britannica.com/biography/Emmy-Noether
+	 </p>
+</section>
+
+<section class="panel slideSpacer">
+	<h2>Inventions/Contributions by Women</h2>
+</section>
+
+<!-- SLIDING PANELS END -->
+
+<!-- PIN SCROLL START -->
+<div id="pinContainer">
+	<div id="slideContainer">
+		<section class="pinPanel one">
+			<img class="invent" src="images/invent/i1.jpeg" alt="Laptop">
+			<b>Grace Hopper, Program compiler</b>
+		</section>
+
+		<section class="pinPanel two">
+			<img class="invent" src="images/invent/i2.jpeg" alt="Laptop">
+			<b>Dishwasher</b>
+		</section>
+
+		<section class="pinPanel three">
+			<img class="invent" src="images/invent/i3.gif" alt="Laptop">
+			<b>DNA Double Helix</b>
+		</section>
+
+		<section class="pinPanel four">
+			<img class="invent" src="images/invent/i4.jpeg" alt="Laptop">
+			<b>Wifi</b>
+		</section>
+	</div>
+</div>
+<!-- PIN SCROLL END -->
+
+<!-- PARALLAX -->
+<div class="spacer s0"></div>
+<div id="parallax1" class="parallaxParent">
+	<div style="background-image: url(images/testbg3.jpg);"></div>
+</div>
+<div class="spacer s1">
+	<div class="box2 blue">
+		<p>Content 1</p>
+		<a href="#" class="viewsource">view source</a>
+	</div>
+</div>
+<div class="spacer s0"></div>
+<div id="parallax2" class="parallaxParent">
+	<div style="background-image: url(images/testbg2.jpg);"></div>
+</div>
+<div class="spacer s1">
+	<div class="box2 blue">
+		<p>Content 2</p>
+		<a href="#" class="viewsource">view source</a>
+	</div>
+</div>
+<div class="spacer s0"></div>
+<div id="parallax3" class="parallaxParent">
+	<div style="background-image: url(images/testbg3.jpg);"></div>
+</div>
+<div class="spacer s2"></div>
+<!-- PARALLAX END -->
 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-<script>
-particlesJS.load('particles-js',
-'particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
-</script> -->
 
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="https://unpkg.com/intersection-observer"></script>
-<script src="https://unpkg.com/scrollama"></script>
-<script src="js/main.js"></script>
+<!-- TEST BLOCK END -->
+
+<!-- FOOTER -->
+<!-- <footer>
+	<p> This page was made by Tien Le. </p>
+</footer> -->
+<!-- END FOOTER -->
+
+<!-- SCRIPTS -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+
+
+
+			 <!-- add Highcharts JS using the CDN -->
+			 <script src="https://code.highcharts.com/highcharts.js"></script>
+
+			 <!-- change the Highcharts theme -->
+			 <script src="https://code.highcharts.com/themes/sunset.js"></script>
+
+			 <!-- add Highcharts print and export features - optional -->
+			 <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+			 <script src="js/main.js"></script>
+
+
+<!-- END SCRIPTS -->
 
  </body>
  </html>
