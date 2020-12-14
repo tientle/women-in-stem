@@ -1,3 +1,5 @@
+// https://github.com/janpaepke/ScrollMagic/wiki
+
 // HIGHCHARTS //
 
 Highcharts.chart('chart', {
@@ -113,7 +115,7 @@ $(function () { // wait for document ready
 					triggerElement: slides[i]
 				})
 				.setPin(slides[i], {pushFollowers: false})
-				.addIndicators() // add indicators (requires plugin)
+				.addIndicators()
 				.addTo(controller);
 		}
 	});
