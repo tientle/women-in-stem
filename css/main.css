@@ -44,6 +44,7 @@ p {
   justify-content: center;
   padding-bottom: 15px;
 }
+/* https://www.youtube.com/watch?v=cUzihD4JBQU&ab_channel=OnlineTutorials */
 
 
 #infoLine {
@@ -128,6 +129,7 @@ img {
     width: 100%;
 }
 
+
 .people {
   width: 300px;
 }
@@ -169,11 +171,11 @@ img {
   background: #fff;
 }
 
-footer {
+/* footer {
   display: flex;
   background: #fff;
   justify-content: center;
-}
+} */
 
 
 #pinContainer {
@@ -193,7 +195,10 @@ footer {
   height: 100%;
   width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
   float: left;
+  }
 
+  #spacerTitle {
+    max-width: 800px;
   }
 
 .pinPanel.one {
@@ -261,8 +266,98 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   color: #000;
 }
 
+#bg1 {
+  background-image: url(../images/bg1.jpeg);
+}
+
+#bg2 {
+  background-image: url(../images/bg2.jpeg);
+}
+
+#bg3 {
+  background-image: url(../images/bg3.jpeg);
+}
+
+#bg4 {
+  background-image: url(../images/bg4.jpeg);
+}
+
 #ty {
   text-align: center;
 }
 
 /* PARALLEX END */
+
+@media screen and (max-width: 800px) {
+  #particles-js {
+    height: 1400px;
+  }
+
+  #chart {
+    width: 270px;
+  }
+
+.desc {
+  width: 300px;
+  margin: auto;
+}
+
+.chartBlock {
+  height: 900px;
+}
+
+.panel {
+  height: 800px;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.full-screen {
+  height: 1000px; /* makes panels the entire window height */
+}
+
+.pTitle {
+  display: none;
+}
+
+.people {
+  margin-bottom: 200px;
+  padding:
+  width: 100px;
+}
+
+.bio {
+  margin-top: 200px;
+  font-size: 25px;
+}
+
+.pinPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.invent {
+  max-width: 200px;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.inventor-title {
+  max-width: 300px;
+  font-size: 30px;
+}
+
+.across-bio {
+  margin: 0;
+  max-width: 300px;
+  font-size: 20px;
+}
+
+#spacerTitle {
+  max-width: 300px;
+  font-size: 30px;
+}
+
+}
