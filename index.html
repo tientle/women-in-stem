@@ -9,7 +9,6 @@
 	<title> Women in STEM </title>
 </head>
 <body>
-
 <!-- HEADER -->
 <header>
 	<div id="particles-js">
@@ -20,157 +19,241 @@
 				From the development of vaccines to the computer programs that allow us to work from home, science affects our lives everyday. Yet, women continue to be overlooked and underrepresented in the science fields.
 			</p>
 			<p>
-				This website will explore that data that showcases the immense disparities of women in STEM fields, and provide an overview of women who have made notable contributions in the STEM fields to progress our understanding of the world around us.
+				This website will explore data that showcases the salary disparity between women and men in STEM, and provide an overview of women who have made notable contributions in the STEM fields to progress our understanding of the world around us.
 			</p>
 	</div>
 </div>
 </header>
 <!-- END HEADER -->
 
-<!-- DIVS -->
 
-
-<!-- </div> -->
-
+<!-- HIGHCHARTS BLOCK -->
 		<h2 id="numbers"> The Numbers </h2>
   <section id="scale-trigger" class="full-screen chartBlock">
     <div id="scale-animation">
+
 			<div id="chart"> </div>
-			<p class="source"> Data obtained from: https://ncses.nsf.gov/pubs/nsb20198/demographic-trends-of-the-s-e-workforce#women-in-the-s-e-workforce </p>
+
+			<p class="data-source"> Data:
+			<a href="https://ncses.nsf.gov/pubs/nsb20198/demographic-trends-of-the-s-e-workforce#women-in-the-s-e-workforce" target="_blank">Science and Engineering Indicators</a>
+			 </p>
+
       <p class="desc">Although the median salary for women with science and engineering degrees have increased over the years, it has consistently been below the median salary of men.</p>
     </div>
   </section>
+<!-- HIGHCHARTS BLOCK END -->
 
-  <section id="bg-trigger" class="full-screen red">
+
+<!-- NOTABLE WOMEN TITLE -->
+  <section id="bg-trigger" class="full-screen transition">
     <div id="bg-animation">
       <h2>History of Notable Women in STEM</h2>
     </div>
   </section>
+<!-- NOTABLE WOMEN TITLE END -->
 
 
-<!-- SLIDING PANELS -->
-<section class="panel purple">
+<!-- SLIDING UP PANELS -->
+<section class="panel up1">
 	<p class="pTitle"> Ada Lovelace </p>
-	<p> Known as the first programmer in computer science for her work in publishing a description of sequences for solving math problems.</p>
+	<p class="bio"> Known as 'the first programmer' in computer science because of her work in publishing a description of sequences to solve math problems.</p>
 		<img id="p1" class="people" src="images/people/p1.jpg" alt="Ada Lovelace">
-		<p class="source"> Image from:
-<a href="https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg#filelinks" target="_blank">Wikimedia Commons</a>
-			 <br> Information from: </p>
 </section>
 
-<section class="panel turqoise">
+<section class="panel up2">
 	<p class="pTitle"> Katherine Johnson</p>
-	<p> Known for her work at NASA for orbital missions.</p>
+	<p class="bio"> During an era when computers had frequent outages and people had low trust in computer calculations, she is known for her mathematical work at NASA that made orbital missions possible.</p>
 	<img id="p2" class="people" src="images/people/p2.jpg" alt="Katherine Johnson">
-	<p class="source"> Image from:
-		<a href="https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg" target="_blank">Wikimedia Commons</a>
-					 <br> Information from: https://www.nasa.gov/content/katherine-johnson-biography
-	</p>
 </section>
 
-<section class="panel green">
+<section class="panel up3">
 	<p class="pTitle">Dr. Flossie Wong-Staal</p>
-	<p> Leader in molecular biology because of her cancer and HIV research. Most cited female scientist in the 1980s with 7,800 citations. </p>
+	<p class="bio"> The first scientist to clone HIV and map the functions of its genes. A leader in molecular biology, she was the most cited female scientist in the 1980s with 7,800 citations. </p>
 	<img id="p3" class="people" src="images/people/p3.jpg" alt="Dr. Flossie Wong-Staal">
-	<p class="source"> Image from:
-		<a href="https://commons.wikimedia.org/wiki/File:Nci-vol-8247-300_flossie_wong_staal.jpg" target="_blank">Wikimedia Commons</a>
-					 <br> Information from: https://ccr.cancer.gov/news/article/in-memoriam-flossie-wong-staal-phd
-	</p>
 </section>
 
-<section class="panel yellow">
+<section class="panel up4">
 	<p class="pTitle">Dr. Jane Cooke Wright</p>
-	<p> Solidified chemptherapy during a time where it was highly experimental. </p>
+	<p class="bio"> Changed the face of medicine with her research in chemotherapy during a time where it was highly experimental. </p>
 	<img id="p4" class="people" src="images/people/p4.jpg" alt="Dr. Jane Cooke Wright">
-	<p class="source"> Image from:
-		<a href="https://commons.wikimedia.org/wiki/File:Jane_Cooke_Wright.jpg" target="_blank">Wikimedia Commons</a>
-					 <br> Information from: https://cfmedicine.nlm.nih.gov/physicians/biography_336.html/
-	 </p>
 </section>
 
-<section class="panel pink">
+<section class="panel up5">
 	<p class="pTitle">Emmy Noether</p>
-	<p> Mathematician who contributed to abstract algebra. Discovered Noether's theorem, a fundamental for physics.  </p>
+	<p class="bio"> Mathematician who discovered "Noether’s theorem", which was the catalyst to the discipline of abstract algebra. Changed the face and foundation of physics when she linked the concepts of conservation laws and symmetry. </p>
 	<img id="p5" class="people" src="images/people/p5.jpg" alt="Emmy Noether">
-	<p class="source"> Image from:
-		<a href="https://commons.wikimedia.org/wiki/File:Noether.jpg" target="_blank">Wikimedia Commons</a>
-					 <br> Information from: https://www.britannica.com/biography/Emmy-Noether
-	 </p>
 </section>
 
 <section class="panel slideSpacer">
-	<h2>Inventions/Contributions by Women</h2>
+	<h2>Inventions by Women</h2>
 </section>
+<!-- SLIDING UP PANELS END -->
 
-<!-- SLIDING PANELS END -->
-
-<!-- PIN SCROLL START -->
+<!-- SLIDING ACROSS/INVENTIONS START -->
 <div id="pinContainer">
 	<div id="slideContainer">
 		<section class="pinPanel one">
 			<img class="invent" src="images/invent/i1.jpeg" alt="Laptop">
-			<b>Grace Hopper, Program compiler</b>
+			<h2 class="inventor-title">Grace Hopper: Compiler & De-Bugger</h2>
+			<p class="across-bio"> Created the first compiler that turns human-readable code into machine code.</p>
 		</section>
 
 		<section class="pinPanel two">
-			<img class="invent" src="images/invent/i2.jpeg" alt="Laptop">
-			<b>Dishwasher</b>
+			<img class="invent" src="images/invent/i2.jpeg" alt="Dishes">
+				<h2 class="inventor-title"> Josephine Cochrane: Dishwasher</h2>
+				<p class="across-bio"> Invented the dishwasher, and her company eventually became KitchenAid. </p>
 		</section>
 
 		<section class="pinPanel three">
-			<img class="invent" src="images/invent/i3.gif" alt="Laptop">
-			<b>DNA Double Helix</b>
+			<img id="dna" class="invent" src="images/invent/i3.gif" alt="DNA">
+			<h2 class="inventor-title"> Rosalind Franklin: DNA Double Helix </h2>
+			<p class="across-bio">Discovered the molecular structure of DNA. </p>
 		</section>
 
 		<section class="pinPanel four">
-			<img class="invent" src="images/invent/i4.jpeg" alt="Laptop">
-			<b>Wifi</b>
+			<img class="invent" src="images/invent/i4.jpeg" alt="Wifi">
+			<h2 class="inventor-title"> Hedy Lamarr: Wifi </h2>
+			<p class="across-bio">Developed frequency-hopping technology that would become the basis for Wifi and bluetooth technology. </p>
 		</section>
 	</div>
 </div>
-<!-- PIN SCROLL END -->
+<!-- SLIDING ACROSS/INVENTIONS END -->
 
-<!-- PARALLAX -->
+<!-- PARALLAX START-->
 <div class="spacer s0"></div>
 <div id="parallax1" class="parallaxParent">
-	<div style="background-image: url(images/testbg3.jpg);"></div>
+	<div style="background-image: url(images/bg1.jpeg);"></div>
 </div>
+
 <div class="spacer s1">
 	<div class="box2 blue">
-		<p>Content 1</p>
-		<a href="#" class="viewsource">view source</a>
+		<h2>Thank you</h2>
+		<p id="ty"> Thank you to all of the women that continually work to progress our knowledge in the sciences. To support girls and women and STEM, check out the following resources:
+			 <br> <a href="https://www.awis.org/" target="_blank">Association for Women in Science </a>
+			 <br> <a href="https://ngcproject.org/" target="_blank">National Girls Collaborative Project</a>
+			<br> <a href="https://www.forwomeninscience.com/" target="_blank">L'Oréal-UNESCO For Women in Science</a>
+		</p>
 	</div>
 </div>
+
 <div class="spacer s0"></div>
 <div id="parallax2" class="parallaxParent">
-	<div style="background-image: url(images/testbg2.jpg);"></div>
+	<div style="background-image: url(images/bg2.jpeg);"></div>
 </div>
 <div class="spacer s1">
 	<div class="box2 blue">
-		<p>Content 2</p>
-		<a href="#" class="viewsource">view source</a>
+		<h2> SOURCES</h2>
+
+			<section>
+			<p> Ada Lovelace </p>
+			<p class="source"> Image from:
+	<a href="https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg#filelinks" target="_blank">Wikimedia Commons</a> /
+	<a href="https://www.computerhistory.org/babbage/adalovelace/ " target="_blank">Information Source</a>
+			</p>
+		</section>
+
+		<section>
+		<p> Katherine Johnson </p>
+		<p class="source"> Image from:
+			<a href="https://commons.wikimedia.org/wiki/File:Katherine_Johnson_at_NASA,_in_1966.jpg" target="_blank">Wikimedia Commons</a> /
+			<a href="https://www.nasa.gov/content/katherine-johnson-biography" target="_blank">Information Source</a>
+		 </p>
+		</section>
+
+		<section>
+		<p> Dr. Flossie Wong-Staal </p>
+		<p class="source"> Image from:
+		<a href="https://commons.wikimedia.org/wiki/File:Nci-vol-8247-300_flossie_wong_staal.jpg" target="_blank">Wikimedia Commons</a> /
+		<a href=" https://ccr.cancer.gov/news/article/in-memoriam-flossie-wong-staal-phd" target="_blank">Information Source</a>
+			</p>
+		</section>
+
+		<section>
+		<p> Dr. Jane Cooke Wright </p>
+		<p class="source"> Image from:
+			<a href="https://commons.wikimedia.org/wiki/File:Jane_Cooke_Wright.jpg" target="_blank">Wikimedia Commons</a> /
+			<a href="https://cfmedicine.nlm.nih.gov/physicians/biography_336.html/" target="_blank">Information Source</a>
+		 </p>
+		</section>
+
+		<section>
+		<p> Emmy Noether </p>
+		<p class="source"> Image from:
+			<a href="https://commons.wikimedia.org/wiki/File:Noether.jpg" target="_blank">Wikimedia Commons</a> /
+						 <a href="https://www.britannica.com/biography/Emmy-Noether" target="_blank">Information Source</a>
+		 </p>
+		</section>
+
+		<section>
+		<p> Grace Hopper, Compiler </p>
+		<p class="source"> Image from:
+			<a href="https://unsplash.com/photos/m_HRfLhgABo" target="_blank">@cgower on Unsplash</a> /
+			<a href="https://news.yale.edu/2017/02/10/grace-murray-hopper-1906-1992-legacy-innovation-and-service" target="_blank">Information Source</a>
+		 </p>
+		</section>
+
+		<section>
+		<p> Josephine Cochrane, Dishwasher </p>
+		<p class="source"> Image from:
+			<a href="https://unsplash.com/photos/sUTjF7ckvAM" target="_blank">@lazybonesaustralia on Unsplash</a> /
+			<a href="https://lemelson.mit.edu/resources/josephine-cochrane" target="_blank">Information Source</a>
+		 </p>
+		</section>
+
+		<section>
+		<p> Rosalind Franklin, DNA Double Helix </p>
+		<p class="source"> Image from:
+			<a href="https://commons.wikimedia.org/wiki/File:DNA_orbit_animated.gif" target="_blank">Wikimedia Commons</a> /
+			<a href="https://www.nature.com/scitable/topicpage/rosalind-franklin-a-crucial-contribution-6538012/" target="_blank">Information Source</a>
+		 </p>
+		</section>
+
+		<section>
+		<p> Hedy Lamarr, Wifi </p>
+		<p class="source"> Image from:
+			<a href="https://unsplash.com/photos/yqLrqIsl294" target="_blank">@pkumar26 on Unsplash</a> /
+			<a href="https://www.womenshistory.org/education-resources/biographies/hedy-lamarr" target="_blank">Information Source</a>
+		 </p>
+		</section>
+
+<section>
+	<p> Background Images </p>
+	<p class="source">
+		<a href="https://unsplash.com/photos/Q1p7bh3SHj8" target="_blank">@nasa on Unsplash</a> /
+	<a href="https://unsplash.com/photos/cIX5TlQ_FgM" target="_blank">@nasa on Unsplash</a> /
+	<a href="https://unsplash.com/photos/yZygONrUBe8" target="_blank">@nasa on Unsplash</a> /
+	<a href="https://unsplash.com/photos/HWIOLU7_O6w" target="_blank">@nasa on Unsplash</a> /
+	<a href="http://www.heropatterns.com/" target="_blank">HeroPatterns</a>
+
+	<br>
+ </p>
+</section>
+
 	</div>
 </div>
+
 <div class="spacer s0"></div>
 <div id="parallax3" class="parallaxParent">
-	<div style="background-image: url(images/testbg3.jpg);"></div>
+	<div style="background-image: url(images/bg3.jpeg);"></div>
 </div>
 <div class="spacer s2"></div>
+
+<div class="box2 blue">
+	<h2>Made By</h2>
+	<section>
+	<p> Tien Le</p>
+	</section>
+</div>
+
+<div class="spacer s0"></div>
+<div id="parallax4" class="parallaxParent">
+	<div style="background-image: url(images/bg4.jpeg);"></div>
+</div>
+<div class="spacer s3"></div>
 <!-- PARALLAX END -->
-
-
-
-<!-- TEST BLOCK END -->
-
-<!-- FOOTER -->
-<!-- <footer>
-	<p> This page was made by Tien Le. </p>
-</footer> -->
-<!-- END FOOTER -->
 
 <!-- SCRIPTS -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
 
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
@@ -180,19 +263,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
 
-
-
-			 <!-- add Highcharts JS using the CDN -->
-			 <script src="https://code.highcharts.com/highcharts.js"></script>
-
-			 <!-- change the Highcharts theme -->
-			 <script src="https://code.highcharts.com/themes/sunset.js"></script>
-
-			 <!-- add Highcharts print and export features - optional -->
-			 <script src="https://code.highcharts.com/modules/exporting.js"></script>
-
+<!-- add Highcharts JS using the CDN -->
+ <script src="https://code.highcharts.com/highcharts.js"></script>
+<!-- change the Highcharts theme -->
+	<script src="https://code.highcharts.com/themes/skies.js"></script>
+<!-- add Highcharts print and export features - optional -->
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
 			 <script src="js/main.js"></script>
-
 
 <!-- END SCRIPTS -->
 

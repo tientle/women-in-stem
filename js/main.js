@@ -12,7 +12,7 @@ Highcharts.chart('chart', {
 
     yAxis: {
         title: {
-            text: 'Graduation Rate (%)'
+            text: 'Pay (Dollars)'
         }
     },
 
@@ -58,6 +58,7 @@ Highcharts.chart('chart', {
 // HIGHCHARTS END //
 
 
+// SCALE AND COLOR CHANGE //
 // Scale Animation Setup
 // .to('@target', @length, {@object})
 var scale_tween = TweenMax.to('#scale-animation', 1, {
@@ -68,17 +69,9 @@ var scale_tween = TweenMax.to('#scale-animation', 1, {
 // BG Animation Setup
 // .to('@target', @length, {@object})
 var bg_tween = TweenMax.to('#bg-trigger', 1, {
-  backgroundColor: '#7B7ABF',
+  backgroundColor: '#d6fbff',
+  // the color it changes to^
   ease: Linear.easeNone
-});
-
-// YoYo Animation Setup
-// .to(@target, @length, @object)
-var yoyo_tween = TweenMax.to('#yoyo-animation', 1, {
-  transform: 'scale(2)',
-  ease: Cubic.easeOut,
-  repeat: -1, // this negative value repeats the animation
-  yoyo: true // make it bounce…yo!
 });
 
 
@@ -97,19 +90,15 @@ var bg_scene = new  ScrollMagic.Scene({
 })
 .setTween(bg_tween);
 
-// YoYo Scene
-// var yoyo_scene = new  ScrollMagic.Scene({
-//   triggerElement: '#yoyo-trigger'
-// })
-// .setTween(yoyo_tween);
-
 controller.addScene([
   scale_scene,
   bg_scene,
-  // yoyo_scene
 ]);
+// SCALE AND COLOR CHANGE END //
 
-// SCROLL
+
+
+// SCROLL//
 
 $(function () { // wait for document ready
 		// init
